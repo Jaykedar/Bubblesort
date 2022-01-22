@@ -1,0 +1,19 @@
+def bubblesort():
+    no=len(percentage)
+    for j in range(0,no-1):
+        for k in range(0,no-1):
+            if (percentage[k]>percentage[k+1]):
+                temp=percentage[k]
+                percentage[k]=percentage[k+1]
+                percentage[k+1]=temp
+                
+            else:
+                pass
+
+
+
+
+
+percentage=[94.8,99.2,96.1,95.3]
+bubblesort() 
+print(percentage)   
